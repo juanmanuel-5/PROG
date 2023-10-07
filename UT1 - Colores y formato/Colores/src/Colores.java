@@ -1,6 +1,6 @@
 // import java.util.Calendar;
 
-public class App {
+public class Colores {
 
   public static void main(String[] args) throws Exception {
     System.out.print("\033[32m hierba");
