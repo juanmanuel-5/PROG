@@ -34,9 +34,21 @@ public class Colores {
 
     // System.out.println("\033[31mHello, World!");
 
-    System.out.println(ConsoleColors.PURPLE + "Writing in purple color");
-    System.out.println(ConsoleColors.GREEN_BOLD + "Writing in green bold color");
-
+    System.out.println(ConsoleColors.PURPLE + "\u266AWriting in purple color𝅘𝅥𝅲");
+    System.out.println(
+      ConsoleColors.GREEN_BOLD + "Writing in green bold color"
+    );
+    System.out.println("\u002A\u0026\u1D16\u266A𝅘𝅥𝅲ëÚ");
+    char letra = 'A' + 32;
+    System.out.println(letra);
+    System.out.println(
+      ConsoleColors.GREEN +
+      ConsoleColors.YELLOW_BACKGROUND +
+      "Writing in green bold color" +
+      ConsoleColors.BLUE +
+      ConsoleColors.CYAN_BACKGROUND +
+      "Writing in green bold color"
+    );
 
     // System.out.format(
     //   ConsoleColors.YELLOW_BOLD + "Local Time: %tT",
