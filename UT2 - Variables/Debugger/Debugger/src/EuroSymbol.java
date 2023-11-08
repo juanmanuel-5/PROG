@@ -3,7 +3,7 @@ public class EuroSymbol {
         int a = 5;
         int b = 16;
         int suma = a + b;
-        System.out.printf("Addition result: %d%s$€",suma, "\u20AC");
+        System.out.printf("Addition result: %d%s$€ 35%s",suma, "\u20AC", "€");
     }
 }
-// poner en consola >chcp 1252
+// poner antes en consola c:\> chcp 1252
